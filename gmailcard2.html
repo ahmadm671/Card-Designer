@@ -142,7 +142,7 @@
         }
 
         .card-body { 
-            padding: 10px 24px 24px 24px; 
+            padding: 10px 24px 2px 24px; 
         }
 
         .field { 
@@ -184,7 +184,7 @@
         .card-footer-area {
             background: #f8f9fa;
             border-top: 1px solid #f1f3f4;
-            padding: 12px 24px;
+            padding: 12px 24px 12px 24px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -201,6 +201,13 @@
             font-size: 9px;
             color: #bdc1c6;
             text-transform: uppercase;
+        }
+
+        .copyright{
+            font-size: 8px;
+            padding-top: 8px;
+            color: #bdc1c6;
+            text-align: center;
         }
 
         .hidden { display: none; }
@@ -223,6 +230,7 @@
         <div style="margin-top: auto;">
             <button class="download" onclick="downloadCard()">Download PNG Image</button>
         </div>
+        <p class="copyright" id="copyright">Copyright (c) 2026 ahmadm671</p>
     </div>
 
     <div class="preview-area">
@@ -241,6 +249,7 @@
                     <div class="label">Password</div>
                     <div class="value password-style" id="card-emailpass">-</div>
                 </div>
+                <p class="copyright" id="copyright">Copyright (c) 2026 ahmadm671</p>
             </div>
 
             <div class="card-footer-area">

@@ -176,12 +176,29 @@
 
         .card-footer {
             padding: 15px;
+            padding-bottom: 0px;
             background: #fbfbfd;
             font-size: 10px;
             color: #86868b;
             text-align: center;
             border-top: 1px solid #f0f0f0;
             line-height: 1.4;
+        }
+        
+        .card-unique-id{
+            font-family: monospace;
+            font-size: 9px; color: #ccc;
+            text-align: right;
+            padding-right: 15px;
+            margin-top: -10px;
+            margin-bottom: 5px;
+        }
+
+        .copyright{
+            font-size: 8px;
+            color: #86868b;
+            text-align: center;
+            padding-bottom: 5px;
         }
 
         .hidden { display: none; }
@@ -208,6 +225,7 @@
         <div style="margin-top: auto;">
             <button class="download" onclick="downloadCard()">Download PNG Image</button>
         </div>
+        <p class="copyright" id="copyright">Copyright (c) 2026 ahmadm671</p>
     </div>
 
     <div class="preview-area">
@@ -241,8 +259,9 @@
                 </div>
             </div>
 
-            <div id="card-unique-id" style="font-family: monospace; font-size: 9px; color: #ccc; text-align: right; padding-right: 15px; margin-top: -10px; margin-bottom: 5px;"></div>
-	    <p class="card-footer" id="card-note" dir="rtl"></p>
+            <div class="card-unique-id" id="card-unique-id"></div>
+	        <p class="card-footer" id="card-note" dir="rtl"></p>
+            <p class="copyright" id="copyright">Copyright (c) 2026 ahmadm671</p>
         </div>
     </div>
 
